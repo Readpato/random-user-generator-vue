@@ -3,12 +3,15 @@ export default {
   name: "UserDescription",
   data() {
     return {
-      firstName: "Patrick",
-      lastName: "Raedler",
-      location: "Florence",
-      email: "patoraedler@gmail.com",
+      firstName: "Loading...",
+      lastName: "",
+      location: "Loading...",
+      email: "Loading...",
       imgSource: "#",
     };
+  },
+  mounted() {
+    this.getRandomUser();
   },
   methods: {
     async getRandomUser() {

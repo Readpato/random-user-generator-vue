@@ -27,13 +27,19 @@ body {
   font-family: "Poppins", sans-serif;
   min-height: 100vh;
   width: 100%;
+  background-color: #f4fdd9;
 }
 
 .container {
-  width: 80%;
+  background-color: #e4ffe1;
+  min-width: 350px;
+  max-width: 375px;
   height: auto;
-  margin: 0 auto;
+  min-height: 300px;
+  margin: 1rem auto;
   display: block;
-  border: 2px solid red;
+  border-radius: 1rem;
+  box-shadow: 1px 1px 5px black;
+  border: 2px solid black;
 }
 </style>
