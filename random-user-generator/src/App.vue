@@ -25,7 +25,7 @@ export default {
 
 body {
   font-family: "Poppins", sans-serif;
-  min-height: 100vh;
+  height: auto;
   width: 100%;
   background-color: #f4fdd9;
 }
