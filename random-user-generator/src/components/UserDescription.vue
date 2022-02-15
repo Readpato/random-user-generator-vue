@@ -38,7 +38,7 @@ export default {
   </div>
 </template>
 
-<style scoped>
+<style lang="scss" scoped>
 .user-description {
   width: 100%;
   height: auto;
@@ -49,6 +49,7 @@ export default {
   flex-direction: column;
   padding: 1rem;
   text-align: center;
+  background-color: $color;
 }
 
 .user-description > * {
